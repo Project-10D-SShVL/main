@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 	public float speed;
 	public float sensitivity;
 	public float clampAngle;
+	public float knockback;
 	float rotX = 0f;
 	float rotY = 0f;
 	public float jumpForce;
@@ -21,6 +22,12 @@ public class PlayerMovement : MonoBehaviour {
 	void FixedUpdate(){
 		if (IsGrounded & Input.GetKey("space")) {
 			gameObject.GetComponent<Rigidbody>().velocity = (Vector3.up * jumpForce);
+			foreach (Collider obj in col) {
+				Rigidbody rg = obj.gameObject.GetComponent<Rigidbody> ();
+				if (rg) {
+					rg.velocity = (Vector3.down * jumpForce * knockback);
+				}
+			}
 			Debug.Log (gameObject.GetComponent<Rigidbody> ().velocity.y);
 		}
 		transform.Translate (new Vector3(Input.GetAxis("Horizontal"), 0f,Input.GetAxis("Vertical")) * Time.deltaTime * speed);
