@@ -3665,6 +3665,18 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4615224539481380, guid: c0e088bc010c01e4ba57a22c67302922, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4615224539481380, guid: c0e088bc010c01e4ba57a22c67302922, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4615224539481380, guid: c0e088bc010c01e4ba57a22c67302922, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0e088bc010c01e4ba57a22c67302922, type: 2}
   m_IsPrefabParent: 0
@@ -10614,11 +10626,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4868699003152886, guid: 285c11b5bd52a354cb7a352f18ca1409,
     type: 2}
   m_PrefabInternal: {fileID: 941806365}
---- !u!4 &951038013 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4499647686933532, guid: c0e088bc010c01e4ba57a22c67302922,
-    type: 2}
-  m_PrefabInternal: {fileID: 300681557}
 --- !u!1 &961788614
 GameObject:
   m_ObjectHideFlags: 0
@@ -13856,16 +13863,6 @@ Prefab:
     - target: {fileID: 4226274444778718, guid: 2f3e58ccb7fea084eb87eb95deef5a28, type: 2}
       propertyPath: m_RootOrder
       value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 114493049667105454, guid: 2f3e58ccb7fea084eb87eb95deef5a28,
-        type: 2}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 951038013}
-    - target: {fileID: 114130224686671502, guid: 2f3e58ccb7fea084eb87eb95deef5a28,
-        type: 2}
-      propertyPath: level
-      value: test2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f3e58ccb7fea084eb87eb95deef5a28, type: 2}
@@ -21585,7 +21582,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1835677796}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: 18, z: 8}
+  m_LocalPosition: {x: -4, y: 18, z: 8.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 408240770}
@@ -21635,7 +21632,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4, y: 4, z: 2}
+  m_Size: {x: 4, y: 4, z: 3}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1835677800
 MonoBehaviour:

@@ -36603,6 +36603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5154445dcaf1064aa9910c0f4771f41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  level: 
 --- !u!114 &114169721431445544
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -36669,7 +36670,7 @@ MonoBehaviour:
   logicOut: {fileID: 114530156395112868}
   speed: 10
   top: 0
-  bottom: 3
+  bottom: -4
   doorsOpenHeight: -1
   dTime: 0.0005
   player: {fileID: 0}

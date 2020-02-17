@@ -26,7 +26,7 @@ public class Lift_logic : MonoBehaviour {
 					transform.Translate (Vector3.up * speed * Time.deltaTime);
 				}
 			} else {
-				if ((transform.position.y > bottom) || playerIn.value) {
+				if ((transform.localPosition.y > bottom) || playerIn.value) {
 					transform.Translate (Vector3.up * -speed * Time.deltaTime);
 					if (playerIn.value) {
 						player.Translate (Vector3.up * -speed * Time.deltaTime);
