@@ -31,7 +31,10 @@ public class Push : MonoBehaviour {
 		t = minObj.transform;
 		if (Input.GetKey (KeyCode.Mouse0) & minD < 150) {
 			gameObject.GetComponent<Rigidbody> ().AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
-			t.gameObject.GetComponent<Rigidbody> ().AddForce ((-(transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+			Rigidbody rb = t.gameObject.GetComponent<Rigidbody> ();
+			if (rb) {
+				rb.AddForce ((-(transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+			}
 		}
 	}
 }

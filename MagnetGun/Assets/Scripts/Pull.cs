@@ -32,7 +32,10 @@ public class Pull : MonoBehaviour {
 		//Debug.Log (minObj.name);
 		if (Input.GetKey (KeyCode.Mouse1) & minD < 150) {
 			gameObject.GetComponent<Rigidbody> ().AddForce ((-(transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
-			t.gameObject.GetComponent<Rigidbody> ().AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+			Rigidbody rb = t.gameObject.GetComponent<Rigidbody> ();
+			if (rb) {
+				rb.AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+			}
 		}
 	}
 }

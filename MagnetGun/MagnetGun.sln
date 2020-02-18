@@ -5,8 +5,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetGun", "Unity.Postproc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetGun", "Assembly-CSharp.csproj", "{4FE9CABD-D68C-EE29-0F4E-59C466A7036F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetGun", "Unity.Postprocessing.Runtime.Tests.csproj", "{FDEC4F4C-31F5-FEF4-2D31-5BFE19E3172D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetGun", "Unity.Postprocessing.Editor.csproj", "{CA0A3EFC-0641-7A20-3969-5E843D8FBCCF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagnetGun", "Unity.Postprocessing.Editor.Tests.csproj", "{592153A2-5F1B-73BB-5268-7C4D4768FFB1}"
@@ -25,10 +23,6 @@ Global
 		{4FE9CABD-D68C-EE29-0F4E-59C466A7036F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FE9CABD-D68C-EE29-0F4E-59C466A7036F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE9CABD-D68C-EE29-0F4E-59C466A7036F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDEC4F4C-31F5-FEF4-2D31-5BFE19E3172D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDEC4F4C-31F5-FEF4-2D31-5BFE19E3172D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDEC4F4C-31F5-FEF4-2D31-5BFE19E3172D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDEC4F4C-31F5-FEF4-2D31-5BFE19E3172D}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CA0A3EFC-0641-7A20-3969-5E843D8FBCCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CA0A3EFC-0641-7A20-3969-5E843D8FBCCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CA0A3EFC-0641-7A20-3969-5E843D8FBCCF}.Release|Any CPU.ActiveCfg = Release|Any CPU

@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Logic\ButtonScript_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Door_logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Element_Logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\ForceField_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Lift_logic.cs" />
      <Compile Include="Assets\Scripts\Logic\LiftTrigger_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\NewLevel_Logic.cs" />
@@ -134,6 +135,9 @@
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Debug\Histogram.compute" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Debug\Histogram.shader" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
+ <Reference Include="Unity.Postprocessing.Runtime.Tests">
+ <HintPath>C:/Users/georg/OneDrive/Documents/GitHub/main/MagnetGun/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -220,8 +224,6 @@
  </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="Unity.Postprocessing.Runtime.Tests.csproj">
-      <Project>{FDEC4F4C-31F5-FEF4-2D31-5BFE19E3172D}</Project>      <Name>Unity.Postprocessing.Runtime.Tests</Name>    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Editor.csproj">
       <Project>{CA0A3EFC-0641-7A20-3969-5E843D8FBCCF}</Project>      <Name>Unity.Postprocessing.Editor</Name>    </ProjectReference>
     <ProjectReference Include="Unity.Postprocessing.Runtime.csproj">

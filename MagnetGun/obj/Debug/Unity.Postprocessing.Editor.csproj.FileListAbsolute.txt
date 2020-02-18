@@ -65,3 +65,4 @@ C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\UnityEdit
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\UnityEditor.iOS.Extensions.Xcode.xml
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Unity.Postprocessing.Editor.dll
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Unity.Postprocessing.Editor.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Unity.Postprocessing.Editor.csprojResolveAssemblyReference.cache
