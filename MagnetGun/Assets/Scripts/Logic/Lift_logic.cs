@@ -12,6 +12,7 @@ public class Lift_logic : MonoBehaviour {
 	public float dTime;
 	public Transform player;
 	public Element_Logic playerIn;
+	public bool restrictFall;
 	// Use this for initialization
 	void Start () {
 		StartCoroutine (Move());
@@ -24,12 +25,19 @@ public class Lift_logic : MonoBehaviour {
 			if (logic.value) {
 				if (top > transform.localPosition.y) {
 					transform.Translate (Vector3.up * speed * Time.deltaTime);
+					if (top < transform.localPosition.y) {
+						transform.localPosition = new Vector3(transform.localPosition.x, top, transform.localPosition.z);
+					}
+						
 				}
 			} else {
-				if ((transform.localPosition.y > bottom) || playerIn.value) {
+				if ((transform.localPosition.y > bottom) || (playerIn.value && !restrictFall)) {
 					transform.Translate (Vector3.up * -speed * Time.deltaTime);
 					if (playerIn.value) {
 						player.Translate (Vector3.up * -speed * Time.deltaTime);
+					}
+					if (bottom > transform.localPosition.y) {
+						transform.localPosition = new Vector3(transform.localPosition.x, bottom, transform.localPosition.z);
 					}
 				}
 			}

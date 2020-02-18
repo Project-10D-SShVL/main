@@ -199,3 +199,7 @@ C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\UnityEdit
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Assembly-CSharp.dll
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Assembly-CSharp.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\Unity.Postprocessing.Runtime.Tests.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\Unity.Postprocessing.Editor.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\Unity.Postprocessing.Runtime.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\Unity.Postprocessing.Editor.Tests.pdb

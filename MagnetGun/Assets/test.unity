@@ -8260,11 +8260,6 @@ Prefab:
       propertyPath: logic
       value: 
       objectReference: {fileID: 691386152}
-    - target: {fileID: 145648011274521354, guid: 39fafacb4d3859447a8fcb72284e951f,
-        type: 2}
-      propertyPath: m_ConnectedAnchor.y
-      value: -24.500011
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 39fafacb4d3859447a8fcb72284e951f, type: 2}
   m_IsPrefabParent: 0
@@ -10862,11 +10857,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 23305363325935388, guid: 8c7bb6456e8c68c4883315ededab4e7c,
-        type: 2}
-      propertyPath: m_Materials.Array.size
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4690457806113866, guid: 8c7bb6456e8c68c4883315ededab4e7c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -10899,24 +10889,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1641003929674236, guid: 8c7bb6456e8c68c4883315ededab4e7c, type: 2}
-      propertyPath: m_TagString
-      value: Metal
-      objectReference: {fileID: 0}
-    - target: {fileID: 4075717268811984, guid: 8c7bb6456e8c68c4883315ededab4e7c, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 23305363325935388, guid: 8c7bb6456e8c68c4883315ededab4e7c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[1]
-      value: 
-      objectReference: {fileID: 2100000, guid: 43d7bc1cc50ad4a41abf1bb0c895add4, type: 2}
-    - target: {fileID: 23594497035755938, guid: 8c7bb6456e8c68c4883315ededab4e7c,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 923e3ec7cd38d484480be90f489f1c8b, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8c7bb6456e8c68c4883315ededab4e7c, type: 2}
   m_IsPrefabParent: 0
