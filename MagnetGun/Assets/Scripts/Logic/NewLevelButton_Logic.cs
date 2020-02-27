@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 public class NewLevelButton_Logic : MonoBehaviour {
 	public string level;
 	public Element_Logic logic;
+	public void Load(){
+		SceneManager.LoadScene(level, LoadSceneMode.Single);
+		Time.timeScale = 1;
+	}
 	// Use this for initialization
 	void Start () {
 

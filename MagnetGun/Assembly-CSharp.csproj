@@ -51,6 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Credits.cs" />
+     <Compile Include="Assets\CreditsAndYou.cs" />
+     <Compile Include="Assets\CreditsTitle.cs" />
      <Compile Include="Assets\deadplane.cs" />
      <Compile Include="Assets\Scripts\CursorScript.cs" />
      <Compile Include="Assets\Scripts\loadingCameraRotation.cs" />
@@ -59,6 +62,7 @@
      <Compile Include="Assets\Scripts\Logic\ButtonScript_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Door_logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Element_Logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\ExitButton_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\ForceField_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Lift_logic.cs" />
      <Compile Include="Assets\Scripts\Logic\LiftTrigger_Logic.cs" />
@@ -68,6 +72,7 @@
      <Compile Include="Assets\Scripts\Logic\UniTagTrigger_Logic.cs" />
      <Compile Include="Assets\Scripts\MetalPiecesList.cs" />
      <Compile Include="Assets\Scripts\OnObjClick.cs" />
+     <Compile Include="Assets\Scripts\PauseScript.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\Pull.cs" />
      <Compile Include="Assets\Scripts\Push.cs" />
@@ -135,9 +140,6 @@
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Debug\Histogram.compute" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Debug\Histogram.shader" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Builtins\ExposureHistogram.compute" />
- <Reference Include="Unity.Postprocessing.Runtime.Tests">
- <HintPath>C:/Users/georg/OneDrive/Documents/GitHub/main/MagnetGun/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.Tests.dll</HintPath>
- </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
