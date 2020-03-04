@@ -67,3 +67,9 @@ C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\UnityEdit
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Unity.Postprocessing.Editor.Tests.csprojResolveAssemblyReference.cache
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Unity.Postprocessing.Editor.Tests.dll
 C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\obj\Debug\Unity.Postprocessing.Editor.Tests.pdb
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\KdTreeLib.dll
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\pb_Stl.dll
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\Poly2Tri.dll
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\ProBuilderCore-Unity5.dll
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\ProBuilderEditor-Unity5.dll
+C:\Users\georg\OneDrive\Documents\GitHub\main\MagnetGun\Temp\bin\Debug\ProBuilderMeshOps-Unity5.dll

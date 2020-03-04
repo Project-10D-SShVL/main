@@ -41,7 +41,7 @@ public class Lift_logic : MonoBehaviour {
 					}
 				}
 			}
-			Debug.Log (transform.localPosition.y);
+			//Debug.Log (transform.localPosition.y);
 			logicOut.value = doorsOpenHeight < transform.localPosition.y;
 			yield return new WaitForSeconds (dTime);
 		}
