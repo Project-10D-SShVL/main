@@ -330,7 +330,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4615224539481380}
   - component: {fileID: 114718759743825456}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: PostProcessor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +453,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1043040882410424}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3, y: 1, z: 0}
+  m_LocalPosition: {x: 4, y: 1, z: -14}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4518925359259044}
@@ -1238,7 +1238,7 @@ MonoBehaviour:
   volumeTrigger: {fileID: 4809400476236008}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
   antialiasingMode: 0
@@ -1343,10 +1343,10 @@ MonoBehaviour:
   volumeTrigger: {fileID: 4518925359259044}
   volumeLayer:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 512
   stopNaNPropagation: 1
   finalBlitToCameraTarget: 0
-  antialiasingMode: 0
+  antialiasingMode: 1
   temporalAntialiasing:
     jitterSpread: 0.75
     sharpness: 0.25
@@ -1626,8 +1626,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e606f2af23cfba47bdc7e7c93d0335a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  distance: 0
-  cam: {fileID: 0}
+  distance: 4
+  cam: {fileID: 20939697809133588}
 --- !u!114 &114991712601655012
 MonoBehaviour:
   m_ObjectHideFlags: 1

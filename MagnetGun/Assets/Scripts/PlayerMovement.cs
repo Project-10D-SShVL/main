@@ -30,7 +30,7 @@ public class PlayerMovement : MonoBehaviour {
 			}
 			Debug.Log (gameObject.GetComponent<Rigidbody> ().velocity.y);
 		}
-		transform.Translate (new Vector3(Input.GetAxis("Horizontal"), 0f,Input.GetAxis("Vertical")) * Time.deltaTime * speed);
+		transform.Translate (Vector3.ClampMagnitude(new Vector3(Input.GetAxis("Horizontal"), 0f,Input.GetAxis("Vertical")), 1) * Time.deltaTime * speed);
 		rotY += Input.GetAxis("Mouse X") * Time.deltaTime * sensitivity;
 		rotX -= Input.GetAxis("Mouse Y") * Time.deltaTime * sensitivity;
 		rotX = Mathf.Clamp(rotX, -clampAngle, clampAngle);

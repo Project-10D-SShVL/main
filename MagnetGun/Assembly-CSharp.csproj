@@ -55,6 +55,7 @@
      <Compile Include="Assets\CreditsAndYou.cs" />
      <Compile Include="Assets\CreditsTitle.cs" />
      <Compile Include="Assets\deadplane.cs" />
+     <Compile Include="Assets\IncinerationField.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\IcoBumpin.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Misc\HueCube.cs" />
@@ -72,6 +73,7 @@
      <Compile Include="Assets\Scripts\loadingCameraRotation.cs" />
      <Compile Include="Assets\Scripts\LoadScript.cs" />
      <Compile Include="Assets\Scripts\Logic\And_Logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\AndInGame_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\ButtonScript_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\CubeSpawner_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\Door_logic.cs" />
@@ -83,6 +85,7 @@
      <Compile Include="Assets\Scripts\Logic\LiftTrigger_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\NewLevel_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\NewLevelButton_Logic.cs" />
+     <Compile Include="Assets\Scripts\Logic\Not_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\TriggerScript_Logic.cs" />
      <Compile Include="Assets\Scripts\Logic\UniTagTrigger_Logic.cs" />
      <Compile Include="Assets\Scripts\MetalPiecesList.cs" />

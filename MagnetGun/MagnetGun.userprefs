@@ -1,6 +1,6 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Logic\ExitButton_Logic.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Logic\Not_Logic.cs">
     <Files>
       <File FileName="Assets\Scripts\Logic\LiftTrigger_Logic.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Logic\TriggerScript_Logic.cs" Line="1" Column="1" />
@@ -9,13 +9,18 @@
       <File FileName="Assets\Scripts\Push.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Pull.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Push3.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Logic\Element_Logic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\Element_Logic.cs" Line="19" Column="2" />
       <File FileName="Assets\Scripts\Logic\Door_logic.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Logic\NewLevel_Logic.cs" Line="11" Column="3" />
+      <File FileName="Assets\Scripts\Logic\NewLevel_Logic.cs" Line="1" Column="1" />
       <File FileName="Assets\CreditsTitle.cs" Line="1" Column="1" />
-      <File FileName="Assets\Credits.cs" Line="8" Column="21" />
-      <File FileName="Assets\CreditsAndYou.cs" Line="10" Column="3" />
-      <File FileName="Assets\Scripts\Logic\ExitButton_Logic.cs" Line="15" Column="22" />
+      <File FileName="Assets\Credits.cs" Line="1" Column="1" />
+      <File FileName="Assets\CreditsAndYou.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\ExitButton_Logic.cs" Line="1" Column="1" />
+      <File FileName="Assets\IncinerationField.cs" Line="1" Column="1" />
+      <File FileName="Assets\deadplane.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\AndInGame_Logic.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logic\Not_Logic.cs" Line="17" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
