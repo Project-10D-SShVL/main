@@ -27,7 +27,7 @@ MagnetGun
 О самом процессе сборки можно прочитать тут:
 https://docs.unity3d.com/ru/530/Manual/PublishingBuilds.html
 Для самостоятельной сборки рекомендуется использовать файлы
-ветки alpha. 
+ветки master. 
 
 **СОЗДАТЕЛИ**
 
