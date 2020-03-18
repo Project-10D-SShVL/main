@@ -37,8 +37,24 @@ public class Push : MonoBehaviour {
 		if (Input.GetKey (KeyCode.Mouse0) & minD < 150) {
 			gameObject.GetComponent<Rigidbody> ().AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
 			Rigidbody rb = t.gameObject.GetComponent<Rigidbody> ();
+
 			if (rb) {
 				rb.AddForce ((-(transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+			}
+		} else {
+			
+			if (Input.GetKey (KeyCode.Mouse0)) {
+				var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+				RaycastHit Hit;
+				if (Physics.Raycast (ray, out Hit) && Hit.collider.gameObject.tag == "Metal") {
+					gameObject.GetComponent<Rigidbody> ().AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+					Rigidbody rb = Hit.collider.gameObject.GetComponent<Rigidbody> ();
+					if (rb) {
+						rb.AddForce ((-(transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+					}
+					Debug.Log ("rayHit");
+
+				}
 			}
 		}
 	}

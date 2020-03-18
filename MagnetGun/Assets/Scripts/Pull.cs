@@ -17,11 +17,12 @@ public class Pull : MonoBehaviour {
 	}
 
 	// Update is called once per frame
-	void FixedUpdate () {
+	void FixedUpdate ()
+	{
 		if (!minObj) {
 			minObj = MetalPiecesList.instance.metalPieces [0];
 		}
-		minD = Mathf.Abs((Camera.main.WorldToScreenPoint (minObj.transform.position) - new Vector3(Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2)).magnitude);
+		minD = Mathf.Abs ((Camera.main.WorldToScreenPoint (minObj.transform.position) - new Vector3 (Camera.main.pixelWidth / 2, Camera.main.pixelHeight / 2)).magnitude);
 		//Debug.Log (minD);
 		foreach (GameObject piece in MetalPiecesList.instance.metalPieces) {
 			if (piece) {
@@ -41,6 +42,21 @@ public class Pull : MonoBehaviour {
 			Rigidbody rb = t.gameObject.GetComponent<Rigidbody> ();
 			if (rb) {
 				rb.AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+			}
+		} else {
+
+			if (Input.GetKey (KeyCode.Mouse1)) {
+				var ray = Camera.main.ScreenPointToRay (Input.mousePosition);
+				RaycastHit Hit;
+				if (Physics.Raycast (ray, out Hit) && Hit.collider.gameObject.tag == "Metal") {
+					gameObject.GetComponent<Rigidbody> ().AddForce ((-(transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+					Rigidbody rb = Hit.collider.gameObject.GetComponent<Rigidbody> ();
+					if (rb) {
+						rb.AddForce (((transform.position - t.position)) / Vector3.Distance (transform.position, t.position) / Vector3.Distance (transform.position, t.position) * force);
+					}
+					Debug.Log ("rayHit");
+
+				}
 			}
 		}
 	}
