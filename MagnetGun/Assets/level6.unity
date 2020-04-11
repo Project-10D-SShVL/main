@@ -3751,6 +3751,11 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0e571979ab987ff448f4720209df4e1d, type: 2}
   m_IsPrefabParent: 0
+--- !u!4 &722069459 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4860435104433134, guid: 0e571979ab987ff448f4720209df4e1d,
+    type: 2}
+  m_PrefabInternal: {fileID: 722069458}
 --- !u!1001 &727748230
 Prefab:
   m_ObjectHideFlags: 0
@@ -3816,6 +3821,11 @@ Prefab:
       propertyPath: z
       value: -10
       objectReference: {fileID: 0}
+    - target: {fileID: 114694744398264818, guid: 16af2619432f7204eb92c6b41845ec8c,
+        type: 2}
+      propertyPath: trashRoom
+      value: 
+      objectReference: {fileID: 722069459}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16af2619432f7204eb92c6b41845ec8c, type: 2}
   m_IsPrefabParent: 0
@@ -7768,6 +7778,11 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114694744398264818, guid: 16af2619432f7204eb92c6b41845ec8c,
+        type: 2}
+      propertyPath: trashRoom
+      value: 
+      objectReference: {fileID: 722069459}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 16af2619432f7204eb92c6b41845ec8c, type: 2}
   m_IsPrefabParent: 0

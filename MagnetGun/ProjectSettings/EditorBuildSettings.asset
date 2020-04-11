@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/LevelSelect.unity
     guid: 640796d7c0c230a4d85fff52388d10bd
   - enabled: 1
+    path: Assets/LevelSelect2.unity
+    guid: 74379b6875474d949ae87bf5c7c02b30
+  - enabled: 1
     path: Assets/test.unity
     guid: 9838b0f806ac02a40a195689ffae965d
   - enabled: 1
