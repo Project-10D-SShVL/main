@@ -99,6 +99,7 @@
      <Compile Include="Assets\Scripts\Push.cs" />
      <Compile Include="Assets\Scripts\Push3.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
+     <Compile Include="Assets\Scripts\StraightPipePush.cs" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Builtins\FinalPass.shader" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Debug\Waveform.compute" />
      <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
