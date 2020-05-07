@@ -51,10 +51,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\closeew.cs" />
      <Compile Include="Assets\Credits.cs" />
      <Compile Include="Assets\CreditsAndYou.cs" />
      <Compile Include="Assets\CreditsTitle.cs" />
      <Compile Include="Assets\deadplane.cs" />
+     <Compile Include="Assets\fortruba.cs" />
      <Compile Include="Assets\ImpactSound.cs" />
      <Compile Include="Assets\IncinerationField.cs" />
      <Compile Include="Assets\ProCore\ProBuilder\API Examples\Icosphere FFT\Scripts\CameraControls.cs" />
@@ -100,6 +102,8 @@
      <Compile Include="Assets\Scripts\Push3.cs" />
      <Compile Include="Assets\Scripts\Singleton.cs" />
      <Compile Include="Assets\Scripts\StraightPipePush.cs" />
+     <Compile Include="Assets\testassets\closeew.cs" />
+     <Compile Include="Assets\testassets\fortruba.cs" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Builtins\FinalPass.shader" />
      <None Include="Assets\PostProcessing-2\PostProcessing\Shaders\Debug\Waveform.compute" />
      <None Include="Assets\ProCore\ProGrids\Shader\pg_GridShader.shader" />
